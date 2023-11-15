@@ -1,0 +1,29 @@
+.fade-in-image { 
+	animation :fadeIn 20s;
+	-webkit-animation: fadeIn 20s;
+	-moz-animation: fadeIn 20s;
+	-o-animation: fadeIn 20s;
+	-ms-animation: fadeIn 20s;	
+}
+@keframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1}
+	
+	
+}
+@-moz-keframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+@-webkit-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+@-o-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+@-ms-keframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
